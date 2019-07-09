@@ -2379,6 +2379,13 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
+		ul.feature-icons > i,
+		ul.feature-icons > .iconify {
+			font-size: 80px;
+			line-height: 120px;
+			margin-right: 40px;
+		}
+
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
@@ -3324,8 +3331,18 @@ input, select, textarea {
 
 
 /* ROSEMARY'S STYLING */
-/* .devicon {
-    position: absolute;
-	left: 12px;
-	top: 12px;
-} */
+.rg-email-address {
+	/* color: #4acaa8; */
+	/* color: #5ed0b1; */
+	color: #39c29d;
+}
+.rg-resume {
+	color: #39c29d;
+	/* color: orange; */
+}
+
+.rg-resume:hover {
+	border-bottom-color: transparent;
+	/* color: #4acaa8 !important; */
+	color: orange !important;
+}
