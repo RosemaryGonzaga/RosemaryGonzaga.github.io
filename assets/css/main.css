@@ -3338,6 +3338,7 @@ input, select, textarea {
 }
 .rg-resume {
 	color: #39c29d;
+	font-size: 24px;
 	/* color: orange; */
 }
 
